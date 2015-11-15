@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MapsActivity">
+    <item
+        android:id="@+id/action_RegionFilter"
+        android:orderInCategory="97"
+        android:title="Regions"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.Spinner" >
+    </item>
+    <item
+        android:id="@+id/action_TimeFilter"
+        android:orderInCategory="98"
+        android:title="Period"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.Spinner" >
+    </item>
+ <!--   <item
+        android:id="@+id/action_OnlineImport"
+        android:orderInCategory="99"
+        android:title="@string/OnlineImportText"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_Import"
+        android:orderInCategory="100"
+        android:title="@string/LocalImportText"
+        app:showAsAction="never" />-->
+    <item
+        android:id="@+id/action_ShowDatabase"
+        android:orderInCategory="101"
+        android:title="@string/ShowDatabaseText"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_MapExit"
+        android:orderInCategory="102"
+        android:title="@string/ExitText"
+        app:showAsAction="never" />
+</menu>

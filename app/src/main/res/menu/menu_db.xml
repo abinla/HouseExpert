@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MapsActivity">
+    <item
+        android:id="@+id/action_ExportDB"
+        android:orderInCategory="94"
+        android:title="Export DB"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_ImportDB"
+        android:orderInCategory="95"
+        android:title="@string/LocalImportText"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_updateDB"
+        android:orderInCategory="97"
+        android:title="DB Sync"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_DBExit"
+        android:orderInCategory="102"
+        android:title="@string/ExitText"
+        app:showAsAction="never" />
+
+</menu>
